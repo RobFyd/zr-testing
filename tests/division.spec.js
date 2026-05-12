@@ -12,3 +12,15 @@ function test1() {
   }
 }
 test1();
+
+function test2() {
+  const a = 25;
+  const b = 0;
+  const expectedResult = Infinity;
+
+  const actualResult = division(a, b);
+  if (actualResult === expectedResult) {
+    console.log("Test 2 passed");
+  }
+}
+test2();
