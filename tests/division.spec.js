@@ -11,3 +11,4 @@ function test1() {
     console.log("Test 1 passed");
   }
 }
+test1();
